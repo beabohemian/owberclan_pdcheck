@@ -15,10 +15,10 @@ driver.find_element_by_xpath('/html/body/div[11]/div[1]/div[2]/div[2]/ul/li[1]/a
 time.sleep(1)
 elem_login = driver.find_element_by_id("id")
 elem_login.clear()
-elem_login.send_keys("-") 
+elem_login.send_keys("아이디") 
 elem_login = driver.find_element_by_id("passwd")
 elem_login.clear()
-elem_login.send_keys("-!") 
+elem_login.send_keys("") 
 driver.find_element_by_xpath('/html/body/div[8]/div/div[2]/form/div[2]/input').click()
 #상품코드 검색
 src = driver.find_element_by_xpath('/html/body/div[10]/div[4]/div[1]/form/div/div/div[12]/textarea')
